@@ -4,7 +4,7 @@
 
 <p>O projeto Move.it foi desenvolvido durante um evento da RocketSeat 🚀 chamado Next Level Week #04, onde o instrutor Diego Fernandes ensina como dominar ferramentas de forma rápida e eficiente.</p>
 
-<img src="https://raw.github.com/claytonc/moveit-nlw-04/blob/main/docs/moveit-1.png">
+<img src="./docs/moveit-1.png">
 
 ## Iniciando a aplicação
 
@@ -37,4 +37,4 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ## 📝 Licença
 
-Este projeto está sob a licença MIT. Consulte [LICENÇA](https://github.com/claytonc/moveit-nlw-04/blob/main/LICENSE) para obter detalhes.
+Este projeto está sob a licença MIT. Consulte [LICENÇA](./LICENSE) para obter detalhes.
