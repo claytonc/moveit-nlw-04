@@ -21,13 +21,15 @@ interface ChallengesContextData {
   resetChallenge: () => void;
   completeChallenge: () => void;
   closeLevelUpModal: () => void;
+  session: object;
 }
 
 interface ChallengesProviderPropos{
   children: ReactNode;
   level: number;
-  currentExperience:number
-  challengesCompleted: number
+  currentExperience:number;
+  challengesCompleted: number;
+  session: object;
 }
 
 export const ChallengesContext = createContext({} as ChallengesContextData);
@@ -40,6 +42,7 @@ export function ChallengesProvider({
   const [level, setLevel] = useState(rest.level ?? 1);
   const [currentExperience, setCurrentExperience] = useState(rest.currentExperience ?? 0);
   const [challengesCompleted, setChallegesCompleted] = useState(rest.challengesCompleted ?? 0);
+  const [session] = useState(rest.session ?? {})
 
   const [activeChallenge, setActiveChallenge] = useState(null);
   const [isLevelUpModalOpen, setIsLevelUpModalOpen ] = useState(false);
@@ -116,6 +119,7 @@ export function ChallengesProvider({
         resetChallenge,
         completeChallenge,
         closeLevelUpModal,
+        session
       }}>
 
       {children}

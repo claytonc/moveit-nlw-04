@@ -5,6 +5,19 @@
 <p>O projeto Move.it foi desenvolvido durante um evento da RocketSeat 🚀 chamado Next Level Week #04, onde o instrutor Diego Fernandes ensina como dominar ferramentas de forma rápida e eficiente.</p>
 
 <img src="./docs/moveit-1.png">
+<br/>
+<br/>
+
+
+## Configure seu ambiente local
+
+<p>Copie o arquivo .env.local.example neste diretório para .env.local (que será ignorado pelo Git):</p>
+
+```
+cp .env.local.example .env.local
+```
+
+<p>Edite o arquivo adicione as configurações de autenticação do GitHub<p>
 
 ## Iniciando a aplicação
 

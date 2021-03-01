@@ -1,0 +1,49 @@
+.container{
+    background: url('/simble.svg') no-repeat var(--blue);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+    align-items: center;
+}
+
+.container .logo{
+    margin-bottom: 6rem;
+}
+
+.container h1{
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.container form,
+.container .description{
+    display: flex;
+}
+
+.container .description img{
+    margin-right: 1rem;
+}
+
+.container .description p{
+    font-size: 1rem;
+    margin: 2rem 0;
+    width: 35%;
+    color: var(--text-highlight);
+}
+
+.container form button{
+    background: url('/icons/arrow-left.svg') no-repeat 15px ;
+    background-color: var(--blue-dark);
+    padding: 30px;
+    border: 0;
+    border-radius: 30px;
+    outline: 0;
+    transition: background-color 0.2s;
+    font-size: 0;
+    margin-top: 30px;
+}
+
+.container form button:hover{
+    background-color: var(--green);
+}
