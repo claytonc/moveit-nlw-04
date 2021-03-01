@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Move.it
 
-First, run the development server:
+
+<p>O projeto Move.it foi desenvolvido durante um evento da RocketSeat 🚀 chamado Next Level Week #04, onde o instrutor Diego Fernandes ensina como dominar ferramentas de forma rápida e eficiente.</p>
+
+<img src="https://raw.github.com/clayonc/moveit-nlw-04/master/docs/moveit-1.png">
+
+## Iniciando a aplicação
+
+<p>Primeiro, execute o servidor de desenvolvimento:</p>
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p>Abra [http://localhost:3000] (http://localhost:3000) com seu navegador para ver o resultado.</p>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Deploy no Vercel
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+A maneira mais fácil de implantar seu aplicativo Next.js é usar a [Plataforma Vercel] (https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app -readme) dos criadores do Next.js.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Confira nossa [documentação de implantação Next.js] (https://nextjs.org/docs/deployment) para obter mais detalhes.
 
-## Learn More
+## Tecnologias utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [TypeScript](https://www.typescriptlang.org/)
+- [NextJS](https://nextjs.org/)
+- [ReactJS](https://reactjs.org/)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Yarn](https://yarnpkg.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 📝 Licença
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto está sob a licença MIT. Consulte [LICENÇA](https://github.com/clayonc/moveit-nlw-04/blob/master/LICENSE) para obter detalhes.
